@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mas Bot</title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function openChat() {
+            var img = document.getElementById('chatbutton');
+            img.className = 'hide';
+            var iframe = document.getElementById('chatframe');
+            iframe.className = '';
+        }
+        function closeChat() {
+            var iframe = document.getElementById('chatframe');
+            iframe.className = 'hide';
+            var img = document.getElementById('chatbutton');
+            img.className = '';
+        }
+    </script>
+</head>
+<body>
+    <div id="titleBlock">
+        
+        <img id="logo" src="下载 (11).jpg" />
+        <h1 id="heading">Mas a</h1>
+
+    </div>
+    <div id=" content">
+        <div id="left-content">
+            1.haha
+            2.hajhf
+            3.hjash
+            4.hasjk
+        </div>
+        <div id="right-content">
+            <img src="667.jpg" />
+            <img src="2345.jpg" />
+        </div>
+    </div>
+    <div id="chat">
+      
+        <img id="chatbutton" src="68.jpg" onclick= "openChat()" />
+        <div id="chatframe" class="hide">
+            <iframe src='https://webchat.botframework.com/embed/botforlulu?s=LGZV9-dfRT0.cwA._G4.PTmmzkMk4_8ycmLZf98l5cpFkgguwccbMnAqKhv-VPQ'></iframe>
+            <button onclick="closeChat()">Hide</button>
+        </div>
+    </div>
+</body>
+</html>
